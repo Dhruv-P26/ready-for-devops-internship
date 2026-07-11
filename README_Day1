@@ -1,0 +1,21 @@
+1. pwd – shows your current directory (“print working directory”).
+
+2. ls – lists the files and folders in the current directory. Try ls -l for details and ls -a to see hidden files.
+
+3. cd <directory> – changes to another directory. cd .. goes up one level, and cd ~ returns to your home folder.
+
+4. mkdir project1 – creates a new folder.
+
+5. touch notes.txt – creates an empty file.
+
+6. cp source destination – copies a file or folder (-r is needed for folders).
+
+7. mv old new – moves or renames a file.
+
+8. rm file and rm -r folder – permanently delete files and folders, so use them carefully.
+
+9. cat file.txt – displays a file’s contents.
+
+10. grep "text" file.txt – searches for text inside a file.
+
+11. chmod – changes permissions. For example, chmod +x script.sh makes a script executable.
