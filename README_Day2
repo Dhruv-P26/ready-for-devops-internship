@@ -1,0 +1,23 @@
+1. whoami – show the current username.
+
+2. id – display your user ID (UID), group ID (GID), and groups.
+
+3. groups – list the groups you belong to.
+
+4. ps aux – show all running processes.
+
+5. top (or htop) – monitor processes and resource usage in real time.
+
+6. kill <PID> – send a signal to a process (by default, terminate it).
+
+7. sudo apt update – refresh the package list (Ubuntu/Debian).
+
+8. sudo apt install <package> – install a package.
+
+9. date – show the current date and time.
+
+10.uptime – show how long the system has been running and the load average.
+
+11. df -h – display disk usage in a human-readable format.
+
+12. free -h – display memory usage in a human-readable format.
