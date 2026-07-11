@@ -1,0 +1,17 @@
+1. git config --global user.name "Your Name" and git config --global user.email "you@example.com" to set your identity.
+
+2. git init to create a new repository.
+
+3. git status to see the state of your working directory.
+
+4. git add <file> or git add . to stage changes.
+
+5. git commit -m "message" to save a snapshot of your work.
+
+6. git log --oneline to view commit history.
+
+7. git remote add origin <repository-url> to connect to GitHub.
+
+8. git push -u origin main to upload your commits.
+
+9. gir config list - to check what are the changes u made
