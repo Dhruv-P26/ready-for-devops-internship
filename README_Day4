@@ -1,0 +1,13 @@
+1. git branch — list local branches.
+
+2. git branch <filename> — create a new branch.
+
+3. git switch <filename> (or git checkout feature-readme) — switch to that branch.
+
+4. git switch -c <filename> — create and switch in one step.
+
+5. git merge <filename> — merge the feature branch into your current branch.
+
+6. git branch -d <filename> — delete a merged branch.
+
+7. git pull — fetch and merge the latest changes from the remote repository.
