@@ -1,0 +1,15 @@
+1. docker --version — verify Docker is installed.
+
+2. docker pull nginx — download an image from a registry.
+
+3. docker images — list local images.
+
+4. docker run -d -p 8080:80 --name my-nginx nginx — start an Nginx container in the background.
+
+5. docker ps — view running containers.
+
+6. docker logs my-nginx — inspect a container’s logs.
+
+7. docker exec -it my-nginx /bin/sh — open a shell inside the container.
+
+8. docker stop my-nginx and docker rm my-nginx — stop and remove the container.
