@@ -1,0 +1,13 @@
+1. ip addr – view your network interfaces and IP addresses.
+
+2. ip route – see the routing table and default gateway.
+
+3. ping 8.8.8.8 and ping google.com – test connectivity and verify DNS resolution.
+
+4. nslookup google.com (or dig google.com) – query DNS records.
+
+5. curl https://example.com – make an HTTP request and inspect the response.
+
+6. ssh user@host – securely connect to another machine.
+
+7. ss -tuln – list listening TCP and UDP ports.
