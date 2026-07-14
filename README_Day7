@@ -1,0 +1,13 @@
+1. docker build -t myapp:v1 . — build an image from a Dockerfile.
+
+2. docker tag myapp:v1 myapp:latest — create an additional tag.
+
+3. docker volume create mydata — create a persistent volume.
+
+4. docker run -v mydata:/data myapp:latest — mount a volume into a container.
+
+5. docker compose up -d — start all services defined in a docker-compose.yml file.
+
+6. docker compose ps — view the status of the services.
+
+7. docker compose down — stop and remove the stack.
