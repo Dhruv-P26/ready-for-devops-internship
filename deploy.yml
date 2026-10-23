@@ -1,0 +1,35 @@
+name: Deploy to AWS
+
+on:
+  push:
+    branches:
+      - main        # runs when you push to main branch
+
+permissions:
+  id-token: write   # REQUIRED for OIDC to work
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout your code
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2: Configure AWS credentials using OIDC (no keys needed!)
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_ARN }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      # Step 3: Test that AWS auth worked
+      - name: Verify AWS identity
+        run: aws sts get-caller-identity
+
+      # Step 4: Your actual deployment steps go here
+      - name: Deploy
+        run: |
+          echo "Add your deployment commands here"
